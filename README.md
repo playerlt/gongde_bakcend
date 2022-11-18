@@ -5,3 +5,5 @@
 ## 使用
 1. 执行model/sql中的sql脚本创建数据库和用户
 2. 在config/config.go文件中配置mysql和redis连接
+3. 在main.go所在目录下go mod tidy
+4. 在main.go所在目录下go run .
